@@ -1,0 +1,10 @@
+{
+  "name": "clothing-store-bootstrap",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://Prince3378.github.io/clothing-store-bootstrap",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
