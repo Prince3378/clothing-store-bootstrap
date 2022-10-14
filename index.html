@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Monvalise</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    >
+    <link rel="shortcut icon" type="image/svg" href="/src/icons/dress.svg"/>
+    <link rel="stylesheet" href="/src/styles/styles.css"/>
+  </head>
+  <body>
+    <header class="header">
+
+      <div class="header__name">
+        <img class="header__icon--cool" src="/src/icons/👍.png">
+        <img src="/src/icons/dress.svg">
+        <p class="header__context">
+          Брендовий верхній одяг від 899 грн
+        </p>
+      </div>
+
+      <div class="header__container container">
+        <div class="header__search row">
+          <div class="col-2 d-flex">
+            <a href="#">
+              <img
+                src="/src/icons/monvalise-logo.svg"
+                alt="monvalise"
+              >
+            </a>
+          </div>
+          <div class="col-6 d-flex">
+            <div class="input-group flex-nowrap">
+              <span class="input-group-text bg-white">
+                <img src="/src/icons/search.svg" alt="search">
+              </span>
+              <input
+                type="search"
+                class="form-control"
+                placeholder="Знайти речі або бренди"
+                aria-label="Search"
+                aria-describedby="addon-wrapping"
+              >
+            </div>
+          </div>
+          <div class="col-2 btn-m">
+            <button class="btn btn-dark" type="submit">
+              Додати товар
+            </button>
+            <div>
+              Укр
+              <img src="/src/icons/Vector_1.svg" alt="arrow">
+            </div>
+          </div>
+          <div class="col-2 btn-m">
+            <a href="#">
+              <img src="/src/icons/Header _Menu_Heart.svg" alt="heart">
+            </a>
+            <a href="#">
+              <img src="/src/icons/Header_Menu_message.svg" alt="message">
+            </a>
+            <a href="#">
+              <img src="/src/icons/Header_Menu_cart.svg" alt="cart">
+            </a>
+            <a href="#">
+              <img src="/src/icons/avatar.svg" alt="avatar">
+              <img src="/src/icons/Vector_2.svg" alt="avatar">
+            </a>
+          </div>
+        </div>
+
+          <nav class="header__navbar navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbar-link"
+                  >
+                    Головна
+                  </a>
+                  <a
+                    class="nav-link is--active"
+                    href="#"
+                    id="navbar-link"
+                  >
+                    Каталог
+                  </a>
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbar-link"
+                  >
+                    Жінкам
+                  </a>
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbar-link"
+                  >
+                    Чоловікам
+                  </a>
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbar-link"
+                  >
+                    Дитячі речі
+                  </a>
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbar-link"
+                  >
+                    Аукціон
+                  </a>
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbar-link"
+                  >
+                    Бренди
+                  </a>
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbar-link"
+                  >
+                    Акції
+                  </a>
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbar-link"
+                  >
+                    Аутентифікація
+                  </a>
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbar-link"
+                  >
+                    Блог
+                  </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+      </div>
+
+    </header>
+
+    <main class="main__container container">
+      <div class="main">
+        Головна
+        <p class="main__page">/ Каталог одягу</p>
+      </div>
+      <div class="main__name">Каталог одягу</div>
+
+      <div
+        class="main__filters
+          d-flex
+          justify-content-between
+          align-items-center"
+      >
+        <div class="filter">Фільтри</div>
+        <div class="d-flex align-items-center">
+          <div>Сортувати за: </div>
+          <div class="main__filters--select d-flex align-items-center">
+            За замовчуванням
+            <img
+              class="main__filters--img"
+              src="/src/icons/Vector_1_.svg"
+              alt="arrow"
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="main__body
+        row
+        row-cols-1
+        row-cols-sm-2
+        row-cols-md-3
+        row-cols-lg-4"
+      >
+        <ul class="col">
+          <li class="category d-flex">
+            Категорії
+            <img
+              class="category__img"
+              src="/src/icons/Vector_1_.svg"
+              alt="arrow"
+            >
+          </li>
+          <li class="category category__sex d-flex">
+            Ціна
+            <img
+              class="category__img"
+              src="/src/icons/Vector_2_.svg"
+              alt="arrow"
+            >
+          </li>
+          <li class="category__item">
+            <div class="category__item--price">
+              <img
+                class="price-img"
+                src="./src/icons/Price_Slider.svg"
+                alt="Price_Slider"
+              >
+              <div class="row">
+                <div class="col price-item">
+                  <p class="price-text">Від</p>
+                  <p class="price-price">980</p>
+                </div>
+                <div class="col price-item">
+                  <p class="price-text">До</p>
+                  <p class="price-price">20465</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="category d-flex">
+            Продавець
+            <img
+              class="category__img"
+              src="/src/icons/Vector_1_.svg"
+              alt="arrow"
+            >
+          </li>
+          <li class="category d-flex">
+            Бренд
+            <img
+              class="category__img"
+              src="/src/icons/Vector_1_.svg"
+              alt="arrow"
+            >
+          </li>
+          <li class="category category__sex d-flex">
+            Стать
+            <img
+              class="category__img"
+              src="/src/icons/Vector_2_.svg"
+              alt="arrow"
+            >
+          </li>
+          <li class="category__item">
+            <ul class="sex">
+              <li class="item d-flex justify-content-between">
+                <span>
+                  <img
+                    class="checket"
+                    src="/src/icons/checket.svg"
+                    alt="checket"
+                  >
+                    Жінкам
+                </span>
+                <div class="count">(64)</div>
+              </li>
+              <li class="item d-flex justify-content-between">
+                <span>
+                  <img
+                    class="checket"
+                    src="/src/icons/checket.svg"
+                    alt="checket"
+                  >
+                    Чоловікам
+                </span>
+                <div class="count">(16)</div>
+              </li>
+              <li class="item d-flex justify-content-between">
+                <span>
+                  <img
+                    class="checket"
+                    src="/src/icons/no_checket.svg"
+                    alt="no_checket"
+                  >
+                    Унісекс
+                </span>
+                <div class="count">(24)</div>
+              </li>
+            </ul>
+          </li>
+          <li class="category d-flex">
+            Розмір
+            <img
+              class="category__img"
+              src="/src/icons/Vector_1_.svg"
+              alt="arrow"
+            >
+          </li>
+          <li class="category d-flex">
+            Колір
+            <img
+              class="category__img"
+              src="/src/icons/Vector_1_.svg"
+              alt="arrow"
+            >
+          </li>
+          <li class="category d-flex">
+            Матеріал
+            <img
+              class="category__img"
+              src="/src/icons/Vector_1_.svg"
+              alt="arrow"
+            >
+          </li>
+          <li class="category d-flex">
+            Сезон
+            <img
+              class="category__img"
+              src="/src/icons/Vector_1_.svg"
+              alt="arrow"
+            >
+          </li>
+          <li class="category d-flex">
+            Стиль
+            <img
+              class="category__img"
+              src="/src/icons/Vector_1_.svg"
+              alt="arrow"
+            >
+          </li>
+        </ul>
+
+        <div class="col">
+
+         <div class="card">
+          <div class="card__container">
+            <div class="card__item-union">
+              <img class="union" src="./src/icons/Union.svg" alt="Union">
+            </div>
+            <div class="card__item-image">
+              <img
+                class="card__item"
+                src="./src/images/img_jeans.png"
+                alt="jeans"
+              >
+            </div>
+            <div class="card__item-top">ТОП</div>
+            <div class="card__item-brand">LOUIS VUITTON</div>
+            <div class="card__item-name">
+              Темно-сині джинси Louis Vuitton
+            </div>
+            <div class="card__item-footer">
+              <div class="price">
+                <div class="old-price">5499</div>
+                <div class="new-price">3799</div>
+              </div>
+              <div class="location">
+                <div class="city">
+                  <img src="./src/icons/Subtract.svg" alt="Subtract">
+                  Херсон
+                </div>
+                <div class="brand">
+                  <img src="./src/icons/love_brand.png">
+                  LoveBrand
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+         
+         <div class="card">
+          <div class="card__container">
+            <div class="card__item-union">
+              <img class="union" src="./src/icons/Union.svg" alt="Union">
+            </div>
+            <div class="card__item-image no-top">
+              <img
+                class="card__item"
+                src="./src/images/img_clatch.png"
+                alt="clatch"
+              >
+            </div>
+            <div class="card__item-brand">LOUIS VUITTON</div>
+            <div class="card__item-name">
+              Клатч Louis Vuitton Limelight
+            </div>
+            <div class="card__item-footer">
+              <div class="price">
+                <div class="old-price">4999</div>
+                <div class="new-price">3499</div>
+              </div>
+              <div class="location">
+                <div class="city">
+                  <img src="./src/icons/Subtract.svg" alt="Subtract">
+                    Дніпро
+                </div>
+                <div class="brand">
+                  <img class="brand-logo" src="./src/icons/avatar.svg">
+                  Brandear
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+
+         <div class="card">
+          <div class="card__container">
+            <div class="card__item-union">
+              <img class="union" src="./src/icons/Union.svg" alt="Union">
+            </div>
+            <div class="card__item-image no-top">
+              <img
+                class="card__item"
+                src="./src/images/img_dress.png"
+                alt="dress"
+              >
+            </div>
+            <div class="card__item-brand">GUCCI</div>
+            <div class="card__item-name">Довга сукня Gucci</div>
+            <div class="card__item-footer">
+              <div class="price">
+                <div class="old-price">11 999</div>
+                <div class="new-price">8 599</div>
+              </div>
+              <div class="location">
+                <div class="city">
+                  <img src="./src/icons/Subtract.svg" alt="Subtract">
+                  Рівне
+                </div>
+                <div class="brand">
+                  <img src="./src/icons/SellBuy.png">
+                  SellBuy
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="card__container">
+              <div class="card__item-union">
+                <img class="union" src="./src/icons/Union.svg" alt="Union">
+              </div>
+              <div class="card__item-image">
+                <img
+                  class="card__item"
+                  src="./src/images/img_black_jacket.png"
+                  alt="black_jacket"
+                >
+              </div>
+              <div class="card__item-top">ТОП</div>
+              <div class="card__item-brand">THOM BROWNE</div>
+              <div class="card__item-name">
+                Чорний піджак Thom Browne
+              </div>
+              <div class="card__item-footer">
+                <div class="price">
+                  <div class="old-price">11 999</div>
+                  <div class="new-price">8 599</div>
+                </div>
+                <div class="location">
+                  <div class="city">
+                    <img src="./src/icons/Subtract.svg" alt="Subtract">
+                    Хмельницький
+                  </div>
+                  <div class="brand">
+                    <img src="./src/icons/Sell_For_Men.svg">
+                    Sell_For_Men
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__container">
+              <div class="card__item-union organic">
+                <div class="organic-item">organic</div>
+                <img class="union" src="./src/icons/Union.svg" alt="Union">
+              </div>
+              <div class="card__item-image no-top">
+                <img
+                  class="card__item"
+                  src="./src/images/img_gray_bag.png"
+                  alt="gray_bag"
+                >
+              </div>
+              <div class="card__item-brand">ELENA GHISELINI</div>
+              <div class="card__item-name">
+                Сумка з декором Elena Ghisellini
+              </div>
+              <div class="card__item-footer">
+                <div class="price">
+                  <div class="old-price">1 999</div>
+                  <div class="new-price">1 599</div>
+                </div>
+                <div class="location">
+                  <div class="city">
+                    <img src="./src/icons/Subtract.svg" alt="Subtract">
+                      Дніпро
+                  </div>
+                  <div class="brand">
+                    <img class="brand-logo" src="./src/icons/avatar.svg">
+                    Brandear
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+
+           <div class="card">
+            <div class="card__container">
+              <div class="card__item-union">
+                <img class="union" src="./src/icons/Union.svg" alt="Union">
+              </div>
+              <div class="card__item-image no-top">
+                <img
+                  class="card__item"
+                  src="./src/images/img_orange_jacket.png"
+                  alt="orange_jacket"
+                >
+              </div>
+              <div class="card__item-brand">CHANEL</div>
+              <div class="card__item-name">
+                Помаранчевий бомбер Woolrich
+              </div>
+              <div class="card__item-footer">
+                <div class="price">
+                  <div class="old-price">1 999</div>
+                  <div class="new-price">1 599</div>
+                </div>
+                <div class="location">
+                  <div class="city">
+                    <img src="./src/icons/Subtract.svg" alt="Subtract">
+                    Кропивницький
+                  </div>
+                  <div class="brand">
+                    <img src="./src/icons/Deeva_Sofia.svg">
+                    Deeva_Sofia
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+              <div class="card__container">
+                <div class="card__item-union">
+                  <img class="union" src="./src/icons/Union.svg" alt="Union">
+                </div>
+                <div class="card__item-image no-top img_brown_jacket">
+                  <img
+                    class="card__item"
+                    src="./src/images/img_brown_jacket.png"
+                    alt="brown_jacket"
+                  >
+                </div>
+                <div class="card__item-brand">CANALI</div>
+                <div class="card__item-name">
+                  Вовняний піджак Canali
+                </div>
+                <div class="card__item-footer">
+                  <div class="price">
+                    <div class="old-price">4 999</div>
+                    <div class="new-price">2 599</div>
+                  </div>
+                  <div class="location">
+                    <div class="city">
+                      <img src="./src/icons/Subtract.svg" alt="Subtract">
+                      Хмельницький
+                    </div>
+                    <div class="brand">
+                      <img src="./src/icons/Sell_For_Men.svg">
+                      Sell_For_Men
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__container">
+                <div class="card__item-union">
+                  <img class="union" src="./src/icons/Union.svg" alt="Union">
+                </div>
+                <div class="card__item-image no-top">
+                  <img
+                    class="card__item"
+                    src="./src/images/img_green_pullover.png"
+                    alt="green_pullover"
+                  >
+                </div>
+                <div class="card__item-brand">ACNE</div>
+                <div class="card__item-name">
+                  Бомбер Acne на блискавці
+                </div>
+                <div class="card__item-footer">
+                  <div class="price">
+                    <div class="old-price">5 999</div>
+                    <div class="new-price">4 199</div>
+                  </div>
+                  <div class="location">
+                    <div class="city">
+                      <img src="./src/icons/Subtract.svg" alt="Subtract">
+                      Київ
+                    </div>
+                    <div class="brand">
+                      <img src="./src/icons/Alexalex.svg">
+                      Alexalex
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__container">
+                <div class="card__item-union">
+                  <img class="union" src="./src/icons/Union.svg" alt="Union">
+                </div>
+                <div class="card__item-image no-top">
+                  <img
+                    class="card__item"
+                    src="./src/images/img_green_coat.png"
+                    alt="green_coat"
+                  >
+                </div>
+                <div class="card__item-brand">HACHE</div>
+                <div class="card__item-name">
+                  Салатове пальто Hache
+                </div>
+                <div class="card__item-footer">
+                  <div class="price">
+                    <div class="old-price">5 999</div>
+                    <div class="new-price">4 199</div>
+                  </div>
+                  <div class="location">
+                    <div class="city">
+                      <img src="./src/icons/Subtract.svg" alt="Subtract">
+                      Київ
+                    </div>
+                    <div class="brand">
+                      <img src="./src/icons/love_brand.png">
+                      LoveBrand
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <nav
+        class="main__page--nav d-flex justify-content-center"
+        aria-label="Page navigation example"
+      >
+        <ul class="pagination d-flex justify-content-around">
+          <li class="page-item">
+            <a class="page-link" id="prev" href="#">Попередня</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link active-link" href="#">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">4</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">5</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">6</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">7</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">8</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" id="prev" href="#">Наступна</a>
+          </li>
+        </ul>
+      </nav>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__nav row">
+
+          <div class="footer__content col">
+            <ul class="footer__list">
+              <li>
+                <a class="footer__list--link" href="#">
+                  Довідка для покупців
+                </a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">
+                  Отримати підтримку
+                </a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">
+                  Як купувати
+                </a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">
+                  Як залишити корисний відгук
+                </a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">
+                  Програма Захисту Покупців
+                </a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">
+                  Рекомендації з безпечних покупок
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__content col">
+            <ul class="footer__list">
+              <li>
+                <a class="footer__list--link" href="#">
+                  Довідка для продавців
+                </a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">
+                  Як почати продавати
+                </a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">
+                  Тарифи
+                </a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">
+                  Угода користувача
+                </a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">
+                  Політика конфіденційності
+                </a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">
+                  Правила користування порталом
+                </a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">
+                  Бонусна програма
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__content col">
+            <ul class="footer__list">
+              <li>
+                <a class="footer__list--link" href="#">
+                  Про нас
+                </a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">
+                  Довідка та FAQ
+                </a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">
+                  Захист легальності контенту
+                </a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">
+                  Адміністрація
+                </a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">
+                  Вакансії
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__content col">
+            <p class="footer__list--link">Мобільний додаток</p>
+            <a
+              href="https://play.google.com/store/games?hl=uk&gl=US"
+              target="_blank"
+            >
+              <img src="./src/icons/google-play.svg" alt="google-play">
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__tm">© 2022 Monvalise</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+@import './utils/fonts';
+@import './utils/variables';
+
+@import './Header';
+@import './Main-page';
+@import './Card.scss';
+@import './Pagination';
+@import './Footer';
+
+* {
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: $colorText;
+}

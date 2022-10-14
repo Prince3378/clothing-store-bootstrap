@@ -1,0 +1,113 @@
+.main {
+  margin-bottom: 40px;
+
+  &__page {
+    display: inline;
+    color: #747778;
+
+    &--nav {
+      margin-bottom: 100px;
+    }
+  }
+
+  &__name {
+    margin-bottom: 32px;
+    font-size: 28px;
+  }
+
+  &__body {
+    margin-bottom: 56px;
+  }
+
+  &__filters {
+    margin-bottom: 25px;
+
+    &--select {
+      height: 34px;
+      padding: 8px 12px;
+      background-color: $colorBackGround;
+      border-radius: 100px;
+    }
+
+    &--img {
+      margin: 3px;
+      width: 10px;
+      height: 8px;
+    }
+}
+
+}
+
+.category {
+  justify-content: space-between;
+  padding: 16px 24px;
+  margin-bottom: 2px;
+  font-size: 14px;
+  color: $colorMain;
+  list-style: none;
+  height: 53px;
+  background-color: $colorBackGround;
+
+  &__item {
+    height: 132px;
+    list-style: none;
+    border: 1px solid $colorBackGround;
+    margin-bottom: 6px;
+
+    &--price {
+      padding: 18px 24px;
+    }
+  }
+
+  &__img {
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+  }
+
+  &__sex {
+    margin: 0;
+  }
+}
+
+.item {
+  font-size: 14px;
+  color: $colorMain;
+  list-style: none;
+  padding-bottom: 12px;
+}
+
+.sex {
+  padding: 16px 24px;
+}
+
+.count {
+  font-size: 14px;
+  color: #747778;
+}
+
+.price {
+  &-img {
+    margin-bottom: 25px;
+  }
+
+  &-text {
+    margin-bottom: 8px;
+    font-size: 10px;
+    color: #747778;
+  }
+
+  &-price {
+    border-bottom: 1px solid #C4C7C7;
+    padding-bottom: 13px;
+    margin: 0;
+  }
+}
+
+.filter {
+  font-size: 22px;
+}
+
+.checket {
+  cursor: pointer;
+}
